@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#111</color>
+    <color name="colorPrimaryDark">#535353</color>
+    <color name="colorAccent">#ea3732</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+
+
+    <color name="rsi10">#4A7BA7</color>
+    <color name="rsi20">#04B4B3</color>
+    <color name="rsi30">#10CAC9</color>
+    <color name="rsi40">#F5A623</color>
+    <color name="rsi50">#FF7D50</color>
+    <color name="rsi60">#FC6644</color>
+    <color name="rsi70">#E75F40</color>
+    <color name="rsi80">#E13A20</color>
+    <color name="rsi90">#D93218</color>
+    <color name="rsi100">#C03823</color>
+    <color name="textColorDetails">#B4BAC0</color>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="SETTINGS">
+
+        <CheckBoxPreference
+            android:key="start_refresh_checkbox"
+            android:title="@string/start_refresh"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="background_refresh_checkbox"
+            android:title="@string/background_refresh"
+            android:summary="Refresh data in background"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="notifications_max_checkbox"
+            android:title="Notifications on top RSI"
+            android:summary="Required background refresh"/>
+
+        <EditTextPreference
+            android:key="max_rsi"
+            android:title="Choose max rsi"
+            android:maxLength="2"
+            android:numeric="integer"/>
+
+        <CheckBoxPreference
+            android:key="notifications_min_checkbox"
+            android:title="Notifications at bottom RSI"
+            android:summary="Required background refresh"/>
+
+        <EditTextPreference
+            android:key="min_rsi"
+            android:title="Choose min rsi"
+            android:maxLength="2"
+            android:numeric="integer"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
