@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements SwipeListFragment
     protected void onResume() {
         super.onResume();
 
-        IntentFilter intentFilter = new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+        IntentFilter intentFilter = new IntentFilter(Intent.ACTION_BOOT_COMPLETED);
         customBroadcastReceiver = new CustomBroadcastReceiver();
         registerReceiver(customBroadcastReceiver, intentFilter);
     }
